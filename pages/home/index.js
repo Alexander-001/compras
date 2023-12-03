@@ -7,5 +7,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     arrayPokemons.push(pokemons);
   }
 
+  // * pokemon.sprites.other.home;
   console.log(arrayPokemons);
 });
