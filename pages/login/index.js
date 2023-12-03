@@ -8,8 +8,7 @@ btnIniciar.addEventListener("click", () => {
   if (isError) {
     alert(errorMessage);
   }
-
-  window.location.assign("/home");
+  window.location.assign("/pages/home");
 });
 
 const isValidEmail = (email) => {
@@ -19,6 +18,5 @@ const isValidEmail = (email) => {
     returnData.errorMessage = "El correo no es valido";
     returnData.isError = true;
   }
-
   return returnData;
 };
